@@ -227,12 +227,12 @@ with tab_calc:
             st.error(f"Error: {error}")
 
    # Quick constants
-    st.divider()
-    st.markdown("#### Quick Constants")
-    c1, c2, c3 = st.columns(3)
-    c1.metric("π", "3.141592653589793")
-    c2.metric("e", "2.718281828459045")
-    c3.metric("τ (2π)", "6.283185307179586")
+   # st.divider()
+   # st.markdown("#### Quick Constants")
+   #1, c2, c3 = st.columns(3)
+   # c1.metric("π", "3.141592653589793")
+   # c2.metric("e", "2.718281828459045")
+   # c3.metric("τ (2π)", "6.283185307179586")
 
 with tab_history:
     st.subheader("Calculation History (this session)")
